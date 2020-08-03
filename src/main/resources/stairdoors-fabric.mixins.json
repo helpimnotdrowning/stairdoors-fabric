@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.setadokalo.stairdoors.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DoorsMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

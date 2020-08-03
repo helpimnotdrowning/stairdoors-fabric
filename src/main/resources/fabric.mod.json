@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "stairdoors-fabric",
+  "version": "${version}",
+  "name": "StairDoors Fabric",
+  "description": "A mod that allows doors to be placed on stairs, ported to Fabric.",
+  "authors": [
+    "Setadokalo"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/stairdoors-fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.setadokalo.stairdoors.StairDoorsMod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "stairdoors-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
