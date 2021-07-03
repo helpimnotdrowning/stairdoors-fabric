@@ -3,7 +3,7 @@
   "id": "stairdoors-fabric",
   "version": "${version}",
   "name": "StairDoors Fabric",
-  "description": "A mod that allows doors to be placed on stairs, ported to Fabric.",
+  "description": "A mod that allows doors to be placed on stairs and bottom slabs, ported to Fabric.",
   "authors": [
     "Setadokalo"
   ],
